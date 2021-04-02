@@ -1,4 +1,4 @@
-const HelloWorldContract = artifacts.require("HelloWorldContract.sol");
+const GreetWorldContract = artifacts.require("GreetContract.sol");
 module.exports = function(deployer) {
-deployer.deploy(HelloWorldContract);
+deployer.deploy(GreetContract);
 }
